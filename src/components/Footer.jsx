@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import shape from "../assets/shape.png";
 import renuelogo from "../assets/renue_logo_white.svg";
 import fb from "../assets/fb-logo.svg";
-import ig from "../assets/ig-logo.svg";
+import ig from "../assets/insta-logo.svg";
 
 export default function Footer() {
   return (
