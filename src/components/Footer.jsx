@@ -1,8 +1,8 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import shape from "../assets/shape.png";
 import renuelogo from "../assets/renue_logo_white.svg";
-import facebooklogo from "../assets/facebooklogo.svg";
-import instagramlogo from "../assets/instagramlogo.svg";
+import fb from "../assets/fb-logo.svg";
+import ig from "../assets/ig-logo.svg";
 
 export default function Footer() {
   return (
@@ -27,8 +27,8 @@ export default function Footer() {
                 ex-offenders.
               </p>
               <div className="justify-center md:justify-start gap-4 hidden md:flex md:mt-4">
-                <img src={facebooklogo} alt="Facebook" />
-                <img src={instagramlogo} alt="Instagram" />
+                <img src={fb} alt="Facebook" />
+                <img src={ig} alt="Instagram" />
               </div>
             </div>
 
@@ -111,8 +111,8 @@ export default function Footer() {
               </div>
 
               <div className=" justify-center md:justify-start gap-4 flex mt-4 mb-6 md:hidden">
-                <img src={facebooklogo} alt="Facebook" />
-                <img src={instagramlogo} alt="Instagram" />
+                <img src={fb} alt="Facebook" />
+                <img src={ig} alt="Instagram" />
               </div>
             </div>
           </div>
